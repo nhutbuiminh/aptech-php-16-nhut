@@ -1,24 +1,67 @@
 body{
-    font-family: Arial;
     background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     color: #313131;
+    min-height: 100vh;
+    justify-content: center;
     
 }
-h1{
+img{
+    max-width: 100%;
+}
+.about{
+    display: flex;
+    margin: 0;
+    padding: 12px 28px;
+    width: 100%;
+}
+.my-avata{
+    width: 190px;
+    height: 190px;
+    margin-left: 300px;
+}
+.my-name{
+    font-weight: 300;
+    margin-bottom:0;
+    margin:0;
+    padding: 0;  
+}
+.my-name span{
+    font-weight: 600;
+}
+.a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.lable{
+    font-weight: 600;
+    margin-right: 40px;
+}
+.detail-edu{
+    display: flex;
+}
+.time-edu{
+    font-weight: 600;
+    margin-right: 40px;
+    margin-top: 0;
+    padding: 0;
+    color: blue;
+}
+span{
+    font-weight: 600;
+    color: blue;
+}
+.detail-exp{
+    display: flex;
+}
+.time-exp{
+    margin-right: 40px;
+    font-weight: 600;
     color: blue;
 }
 h2{
-    color: tomato;
-}
-p{  
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.tieu-de{
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    color:blue;
 }
