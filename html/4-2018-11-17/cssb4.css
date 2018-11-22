@@ -1,0 +1,11 @@
+body{
+   
+    height: 100vh;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+}
+span{
+    font-weight: 600;
+}
