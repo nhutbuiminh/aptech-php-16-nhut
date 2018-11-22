@@ -1,0 +1,37 @@
+body{
+    background-color: gainsboro;
+    padding: 0;
+
+}
+header{
+    height: 200px;
+}
+.container{
+    background-color: white;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+span{
+    font-weight: 700;
+}
+.col{
+    margin: 0;
+    text-align: center;
+}
+.promote{
+    background-color: whitesmoke;
+    height: 150px;
+    text-align: center;
+    
+}
+.titleSection{
+    margin: 0;
+    height: 150px;
+    
+}
+.detailSection.col{
+    height: 100px;
+    
+}

@@ -1,0 +1,60 @@
+body{
+    background-color:white;
+    height: 200px;
+}
+p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.container{
+    display: flex;
+    height: 200px;
+}
+.left-content{
+    background-color: tomato;
+    width: 30%;
+    
+}
+.right-content{
+    background-color: tomato;
+    width: 68%;
+    margin-left: 2%;
+}
+.nav{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+}
+.bottom-content{
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.detail{
+    display: flex;
+}
+.section{
+    width: 70%;
+    margin-right: 2%;
+}
+.infor{
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.aside{
+    background-color: hotpink;
+    width: 28%;
+}
+footer{
+    background-color: brown;
+    height: 200px;
+    margin-top: 20px;
+}
