@@ -1,21 +1,7 @@
 body{
-    text-align: center !important;
-    
+    background-color: tomato;
 }
 form{
     width: 100%;
     max-width: 350px;
-    margin: 100px   auto ;
-}
-#inPutEmail{
-    height: 30px;
-    width: 80%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-#inPutPassword{
-    height: 30px;
-    width: 80%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
