@@ -1,0 +1,17 @@
+body{
+    text-align: center !important;
+    
+}
+form{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+#inPutEmail{
+    height: 30px;
+    width: 80%;
+}
+#inPutPassword{
+    height: 30px;
+    width: 80%;
+}
