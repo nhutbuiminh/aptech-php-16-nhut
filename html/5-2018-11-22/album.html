@@ -4,23 +4,45 @@
         <title>Blbum</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.css">
         <link rel="stylesheet" href="./album-style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
-        <header class="bg-dark">
-                <nav class="navbar navbar-expant-md navbar-dark">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                          <div>
-                            <h2>lsjhfsdkjfhcíudhcídhni</h2>
-                          </div>
-                        </div>  
-                      </nav>
-                      <br>    
-        </header>
-        <div class="container">
+        <div class=" container-fluid bg-dark">
+            <div class="row">
+                <div class="col">
+                        <div class=" container-fluid collapse navbar-collapse text-white mt-3" id="navbarToggleExternalContent">
+                            <div class="row">
+                                <div class="col-8 offset-1">
+                                    <h1>About</h1>
+                                    <span class="text-mute">Add some information about the album below, the author, or any other background context.<br> Make it a few sentences long so folks can pick up some informative tidbits.<br> Then, link them off to some social networking sites or contact information.</span>
+                                </div>
+                                <div class="col-3 list-unstyle ">
+                                    <h1>Contact</h1>
+                                        <a href="twitter.com">Follow on Twitter</a><br>
+                                        <a href="facebook.com">Like on Facebook</a><br>
+                                        <a href="gmail.com">Email me</a><br>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-expant-md navbar-dark">
+                            <div>
+                                    <i class="fas fa-camera text-white mr-2"></i>
+                                    <a class="navbar-brand" href="#">Navbar</a>
+                            </div>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                      </button>
+                        </nav>
+                        
+                </div>
+            </div>
+                    
+        </div>
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center justify-content-center my-5">
                     <h1>Album example</h1>
@@ -41,9 +63,9 @@
                     <div class="card-img-overlay">
                         <span>This is my picture</span>
                     </div>
-                    <footer class="card-body d-flex justify-content-between border rounded ">
+                    <footer class="card-body d-flex justify-content-between border border-dark rounded rounded-buttom ">
                         <div class="btn-group border border-dark rounded">
-                            <button type="button" class="btn">View</button>
+                            <button type="button" class="btn btn-dark">View</button>
                             <button type="button" class="btn">Edit</button>
                         </div>
                         <span>Sam_nt</span>
@@ -54,7 +76,7 @@
                     <div class="card-img-overlay">
                         <span>This is my picture</span>
                     </div>
-                    <footer class="card-body d-flex justify-content-between border rounded">
+                    <footer class="card-body d-flex justify-content-between border border-dark rounded rounded-buttom">
                         <div class="btn-group border border-dark rounded">
                             <button type="button" class="btn">View</button>
                             <button type="button" class="btn">Edit</button>
@@ -67,7 +89,7 @@
                     <div class="card-img-overlay">
                         <span>This is my picture</span>
                     </div>
-                    <footer class="card-body d-flex justify-content-between border rounded">
+                    <footer class="card-body d-flex justify-content-between border border-dark rounded rounded-buttom">
                         <div class="btn-group border border-dark rounded">
                             <button type="button" class="btn">View</button>
                             <button type="button" class="btn">Edit</button>
@@ -80,7 +102,7 @@
                     <div class="card-img-overlay">
                         <span>This is my picture</span>
                     </div>
-                    <footer class="card-body d-flex justify-content-between border rounded">
+                    <footer class="card-body d-flex justify-content-between border border-dark rounded rounded-buttom">
                         <div class="btn-group border border-dark rounded">
                             <button type="button border" class="btn">View</button>
                             <button type="button border" class="btn">Edit</button>
@@ -89,11 +111,11 @@
                     </footer>
                 </div>
                 <div class="col-4 card">
-                    <img class="card-img-top" src="./img/riccardo-lapi-1178368-unsplash.jpg" alt="img">
+                    <img class="card-img-top" src="./img/jon-del-rivero-505482-unsplash.jpg" alt="img">
                     <div class="card-img-overlay">
                         <span>This is my picture</span>
                     </div>
-                    <footer class="card-body d-flex justify-content-between border rounded">
+                    <footer class="card-body d-flex justify-content-between   border border-dark  rounded rounded-buttom">
                         <div class="btn-group border border-dark rounded">
                             <button type="button" class="btn">View</button>
                             <button type="button" class="btn">Edit</button>
@@ -101,8 +123,36 @@
                         <span>Sam_nt</span>
                     </footer>
                 </div>
+                <div class="col-4 card">
+                        <img class="card-img-top" src="./img/jon-del-rivero-505482-unsplash.jpg" alt="img">
+                        <div class="card-img-overlay">
+                            <span>This is my picture</span>
+                        </div>
+                        <footer class="card-body d-flex justify-content-between   border border-dark  rounded rounded-buttom">
+                            <div class="btn-group border border-dark rounded">
+                                <button type="button" class="btn">View</button>
+                                <button type="button" class="btn">Edit</button>
+                            </div>
+                            <span>Sam_nt</span>
+                        </footer>
+                    </div>
+                
             </div>
         </div>
+        <footer>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-9">
+                        <span>Album example is © Bootstrap, but please download and customize it for yourself!
+
+                                New to Bootstrap? Visit the homepage or read our getting started guide.</span>
+                    </div>
+                    <div class="col-3">
+                        <a href="http://www.youtube.com">Back to top</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
                 </body>
 
 </html>
