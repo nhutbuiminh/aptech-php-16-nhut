@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <div class="row d-flex flex-column justify-content-center align-items-center py-5">
+            <img class="my-4" src=".//1525068825bootstrap-logo-png-logo-228.png" alt="logo" style="height: 80px; width: 80px;">
+            <h1 class="mb-3">Checkout form</h1>
+            <h5>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a</h5> 
+            <h5> validation state that can be triggered by attempting to submit the form without completing it.</h5>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <form class="form-group">
+                    <h1>Billing address</h1>
+                    <div class="row">
+                        <div class="col-6">
+                                <label for="inPutFirstName">First name:</label>
+                                <input type="FirstName" id="inPutFirstName" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="col-6">
+                                <label for="inPutLastName">Last name:</label>
+                                <input type="LastName" id="inPutLastName" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <label for="userName">User Name:</label>
+                    <input type="UserName" class="form-control" id="userName" placeholder="User name">
+                    <label for="inputEmail">Email: <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
+                    <label for="address">Address:</label>
+                    <input type="address" class="form-control" id="address" placeholder="1234 Main st">
+                    <label for="address">Address 2: <span class="text-muted">(Optional)</span></label>
+                    <input type="address" class="form-control" id="address" placeholder="1234 Main st">
+                    <div class="row align-items-center border-bottom pb-5">
+                        <div class="col-5">
+                                <label for="country">Country</label>
+                                <select class="form-control" id="country" aria-placeholder="Choose..">
+                                    <option value="">Choose</option>
+                                    <option value="">United States</option>
+                                    <option value="">VietNam</option>
+                                    <option value="">Japan</option>
+                                </select>
+                        </div>
+                        <div class="col-4">
+                                <label for="state">State:</label>
+                                <select class="form-control" id="state" aria-placeholder="">
+                                    <option value="">Choose</option>
+                                    <option value="">DaNang</option>
+                                    <option value="">HaNoi</option>
+                                    <option value="">SaiGon</option>
+                                </select>
+                        </div>
+                        <div class="col-3">
+                            <label for="zipcode">ZIP:</label>
+                            <input type="zip-code" class="form-control" id="zipcode">
+                        </div>    
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col-5"></div>
+        </div>
+    </div>
+</body>
+</html>
