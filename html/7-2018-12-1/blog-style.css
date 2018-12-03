@@ -4,3 +4,23 @@ a{
 img{
     max-width: 100%;
 }
+.hero-image1{
+    background-image: url("./elijah-o-donnell-1192786-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+}
+.hero-image2{
+    background-image: url("./marion-michele-1191827-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+}
+carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
