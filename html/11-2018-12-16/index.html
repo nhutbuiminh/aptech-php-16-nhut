@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</hea//d>
+<bo//dy>
+    <img id="img1" src="./pic_bulbon.gif" alt="light">
+    <button id="node">lights</button>
+    <script>
+         $(document).ready(function(){
+            $('#node').click(function(){
+                var a = $('#img1').attr('src');
+                console.log(a);
+                if(a == './pic_bulbon.gif')
+                 return $("#img1").attr("src", "./pic_bulboff.gif");
+                
+                return $("#img1").attr("src", "./pic_bulbon.gif");
+            });
+        });
+    </script>
+</body>
+</html>
