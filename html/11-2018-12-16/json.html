@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+    table{
+        border: 10px;
+    }
+    </style>
+</head>
+<body>
+    <button id="1">chick here</button>
+    <div id="text"></div>
+    <script>
+        $(document).ready(function(){
+            $('#1').click(function(){
+                $.get('./data.json', function(data,status){
+                    var keys = Object.keys(data);
+                    console.log(keys);
+                    console.log(data[keys[0]]);
+                    $('#text').append(
+                    for(var key of data[keys[1]]){
+                        $('#text').append(
+                        '<table><th>'+key.id + '</th><th>' + key.name + '</th><th>' +key.email+ '</th><th>' +key.password +"</th>"
+                        )}
+                    )
+                    }
+                   /* for(var i=0 ; i < keys.length;i++){
+                        console.log(data[keys[i]]);
+                        console.log(typeof data[keys[i]])
+                        $('#text').append(data[keys[i]]);
+                    }*/
+                    
+                });
+            });  
+                
+            });
+            
+
+    </script>
+</body>
+</html>
