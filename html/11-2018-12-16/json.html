@@ -6,27 +6,77 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
     <style>
-    table{
-        border: 10px;
+    #table1{
+        border: 1px;
+        border-style: solid;
+        border-collapse: collapse;
+        text-align: center;
+        
+    }
+    th{
+        border: 1px;
+        border-style: solid;
+        width: 300px;
+        border-collapse: collapse;
+
+    }
+    tr{
+        border: 1px;
+        border-style: solid;
+        border-collapse: collapse;
+
+    }
+    h1{
+        text-align: center;
     }
     </style>
 </head>
 <body>
     <button id="1">chick here</button>
-    <div id="text"></div>
+    <h1 id="mess"></h1>
+    <div id="text">
+        <table id="table1" class="d-flex align-items-center">
+            <thead>
+                <tr>
+                        <th id="id" style="width: 50px;">Id</th>
+                        <th id="name" style="width: 220px;">Name</th>
+                        <th id="email" style="width: 220px;">Email</th>
+                        <th id="pass" style="width: 220px;">Password</th>
+                        <th id="creat" style="width: 220px;">Created_at</th>
+                        <th id="update" style="width: 220px;">Updated_at</th>
+        
+                </tr>
+            </thead>
+        </table>
+    </div>
     <script>
         $(document).ready(function(){
             $('#1').click(function(){
                 $.get('./data.json', function(data,status){
                     var keys = Object.keys(data);
                     console.log(keys);
-                    console.log(data[keys[0]]);
-                    $('#text').append(
+                    $('#mess').append(data[keys[0]]);
+                    
                     for(var key of data[keys[1]]){
-                        $('#text').append(
-                        '<table><th>'+key.id + '</th><th>' + key.name + '</th><th>' +key.email+ '</th><th>' +key.password +"</th>"
-                        )}
-                    )
+                        $('#id').append(
+                            '<br>'+ key.id 
+                        )
+                        $('#name').append(
+                            '<br>'+ key.name 
+                        )
+                        $('#email').append(
+                            '<br>'+ key.email  
+                        )
+                        $('#pass').append(
+                            '<br>'+ key.password  
+                        )
+                        $('#creat').append(
+                            '<br>'+ key.created_at  
+                        )
+                        $('#update').append(
+                            '<br>'+ key.updated_at 
+                        )
+                    
                     }
                    /* for(var i=0 ; i < keys.length;i++){
                         console.log(data[keys[i]]);
