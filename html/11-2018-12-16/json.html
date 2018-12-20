@@ -4,6 +4,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <title>Document</title>
     <style>
     #table1{
@@ -29,52 +30,47 @@
     h1{
         text-align: center;
     }
+    
     </style>
 </head>
 <body>
     <button id="1">chick here</button>
     <h1 id="mess"></h1>
-    <div id="text">
-        <table id="table1" class="d-flex align-items-center">
-            <thead>
-                <tr>
-                        <th id="id" style="width: 50px;">Id</th>
-                        <th id="name" style="width: 220px;">Name</th>
-                        <th id="email" style="width: 220px;">Email</th>
-                        <th id="pass" style="width: 220px;">Password</th>
-                        <th id="creat" style="width: 220px;">Created_at</th>
-                        <th id="update" style="width: 220px;">Updated_at</th>
+    <div id="text" class="d-flex align-items-center">
+        <table id="table1">
+            <thead class="bg-dark text-white" >
+                <tr >
+                        <th  style="width: 50px;">Id</th>
+                        <th  style="width: 220px;">Name</th>
+                        <th  style="width: 220px;">Email</th>
+                        <th  style="width: 220px;">Password</th>
+                        <th  style="width: 220px;">Created_at</th>
+                        <th  style="width: 220px;">Updated_at</th>
         
                 </tr>
             </thead>
+            <tbody id="info"></tbody>
         </table>
     </div>
     <script>
         $(document).ready(function(){
             $('#1').click(function(){
-                $.get('./data.json', function(data,status){
-                    var keys = Object.keys(data);
-                    console.log(keys);
-                    $('#mess').append(data[keys[0]]);
-                    
-                    for(var key of data[keys[1]]){
-                        $('#id').append(
-                            '<br>'+ key.id 
-                        )
-                        $('#name').append(
-                            '<br>'+ key.name 
-                        )
-                        $('#email').append(
-                            '<br>'+ key.email  
-                        )
-                        $('#pass').append(
-                            '<br>'+ key.password  
-                        )
-                        $('#creat').append(
-                            '<br>'+ key.created_at  
-                        )
-                        $('#update').append(
-                            '<br>'+ key.updated_at 
+                $.get('https://namcoi.com/projects/laravel-crud/api/users', function(data){
+                    console.log(data);
+                    for(var key of data ){
+                        
+                        $('#info').append(
+                            '<tr><th>'+ key.id+
+                        
+                            '</th><td>'+ key.name+
+                        
+                            '</td><td>'+ key.email+  
+                        
+                            '</td><td>'+ key.password+  
+                        
+                            '</td><td>'+ key.created_at+  
+                        
+                            '</td><td>'+ key.updated_at+'</td></tr>' 
                         )
                     
                     }
