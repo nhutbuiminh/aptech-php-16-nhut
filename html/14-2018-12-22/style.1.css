@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    box-shadow:0px 3px rgba(0,0,0,0.2); 
+}
+.carousel{
+    height: 500px;
+}
+.slide-review-img-1{
+    background-image:url("./kristi-martin-641503-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 500px;
+}
+.slide-review-img-2{
+    background-image: url("./kurt-von-1122073-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 500px;
+}
+.slide-review-img-3{
+    background-image: url("./michael-hacker-202835-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 500px;
+}
+.img1{
+    width: 170px;
+    height: 170px;
+    
+}
+.img2{
+    width: 170px;
+    height: 170px;
+}
+.img3{
+    width: 170px;
+    height: 170px;
+}
+.img4{
+    background-image: url("./riccardo-lapi-1178368-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 400px;
+}
