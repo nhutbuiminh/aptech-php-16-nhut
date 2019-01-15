@@ -11,4 +11,3 @@ $sql = "create database createDB";
 if(mysqli_query($conn,$sql)){
     echo "Database created successfully";
 }
-$
