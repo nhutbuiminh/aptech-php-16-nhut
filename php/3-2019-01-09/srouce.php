@@ -1,5 +1,5 @@
 <?php
-function connectDB($serverName = "localhost", $userName = "root", $password = "", $database = "createdb")
+function connectDB($serverName = "localhost", $userName = "root", $password = "", $database = "ql")
 {
     $conn = mysqli_connect($serverName, $userName, $password, $database);
     if (!$conn) {
