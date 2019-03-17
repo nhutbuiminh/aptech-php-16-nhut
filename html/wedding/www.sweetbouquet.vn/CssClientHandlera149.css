@@ -1,0 +1,362 @@
+._weet_hidden02 {display:none;}
+._lt_bgr_footer {
+    background: #c6af90;
+	    padding-top: 30px;
+    padding-bottom: 40px;
+}
+._ftBasic ._footer_item {
+    height: 150px;
+    position: relative;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+	    color: #fff;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos span {
+    display: block;
+	    text-align: center;
+	color: #fff;
+	letter-spacing:1px;
+	font-weight:300;
+	font-size:16px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part2 span {
+    text-align: left;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._iamge {
+    text-align: center;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._iamge img {
+    width: 90px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part1 {
+       letter-spacing: 1px;
+    float: left;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part1 div {
+    position: absolute;
+    width: 90px;
+    top: 47%;
+    transform: translate(0,-50%);
+	font-size: 16px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part1 div:before, .navfooter ._ftBasic ._footer_item ._item_pos ._part1 div:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 20px;
+    background: #fff;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part1 div:before {
+    top: -1px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part1 div:after {
+    bottom: -7px;
+}
+.navfooter ._ftBasic ._footer_item span.above_sp {
+    text-transform: uppercase;
+}
+.navfooter ._ftBasic ._footer_item ._part2 span.above_sp {
+    text-transform: capitalize;
+    font-style: italic;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part2 span {
+    font-weight: 300;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos ._part2 {
+    float: left;
+    width: calc(100% - 110px);
+    margin-left: 20px;
+    padding: 18px 0px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos._item_pos03:before, .navfooter ._ftBasic ._footer_item ._item_pos._item_pos03:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+        width: 35px;
+    background: #fff;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos._item_pos03:before {
+    top: -6px;
+}
+.navfooter ._ftBasic ._footer_item ._item_pos._item_pos03:after {
+    bottom: -12px;
+}
+@media (max-width:1199px){
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 {
+        padding: 15px 0px;
+    margin-left: 10px;
+    width: calc(100% - 90px);
+}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 span {
+    word-break: break-all;
+	font-size: 14px;
+}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part1 {
+    width: 80px;
+    height: 80px;
+}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part1 div {width:80px;}
+}
+@media (max-width:979px){
+	/*.navfooter ._ftBasic ._footer_item ._item_pos span {font-size:14px;}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 span {
+    font-size: 14px;
+}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 {
+    float: left;
+    width: calc(100% - 85px);
+    margin-left: 5px;
+}*/
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part1 {display:none;}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 {
+    padding: 15px 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 span {
+    word-break: break-all;
+    font-size: 14px;
+    line-height: 28px;
+}
+}
+@media (max-width:767px){
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part1 {display:inherit;}
+	._weet_hidden02 {display:inherit;}
+	._weet_hidden01 {display:none;}
+	.navfooter ._ftBasic ._footer_item ._item_pos ._part2 {
+    float: left;
+    width: calc(100% - 85px);
+    margin-left: 5px;
+        padding: 12px 0px;
+}
+	._ftBasic ._footer_item {
+    height: 135px;
+}
+	._weet_hidden02 ._item_pos.clearfix {
+       width: 305px;
+    margin: auto;
+}
+	._lt_bgr_footer {padding-bottom:0px;}
+}
+
+
+
+
+
+                /**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	left:0;
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+.bx-wrapper .bx-viewport ul{margin:0;padding:0}
+.bx-wrapper .bx-pager,.bx-wrapper .bx-controls-auto{position:absolute;bottom:-30px;width:100%}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url('themes/default/images/bx_loader76ae.gif?v=69') center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 0;
+}
+
+.bx-wrapper .bx-next {
+	right: 0;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a i {
+	vertical-align:top;
+	font-size:45px
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	outline: 0;
+	margin-top: -10px;
+	vertical-align:top;
+	z-index: 18;
+	padding:0 5px;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url('themes/default/images/controls76ae.html?v=69') -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url('themes/default/images/controls76ae.html?v=69') -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+
+
+

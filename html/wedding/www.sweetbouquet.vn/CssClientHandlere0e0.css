@@ -1,0 +1,72 @@
+.frcontent._services_public ul.clearfix {
+    position: relative;
+		    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+	.frcontent._services_public ul.clearfix:before {
+    position: absolute;
+    content: "";
+    /*background: #dcdcdc;*/
+    width: calc(100% - 10px);
+    height: 1px;
+    left: 5px;
+    bottom: 0;
+}
+
+
+
+/*._services_public ul.clearfix li a h4._title:before {
+       position: absolute;
+    content: "";
+    left: 12px;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 30px;
+    height: 30px;
+    background: #af9777;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+._services_public ul.clearfix li:nth-child(1) a h4._title:before { content: "1";}
+._services_public ul.clearfix li:nth-child(2) a h4._title:before { content: "2";}
+._services_public ul.clearfix li:nth-child(3) a h4._title:before { content: "3";}
+._services_public ul.clearfix li:nth-child(4) a h4._title:before { content: "4";}*/
+
+	.frcontent._services_public {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+	._services_public ul.clearfix li a {
+    display: block;
+}
+	._services_public ul.clearfix li {
+    text-align: center;
+		    padding-right: 5px;
+    padding-left: 5px;
+		padding-bottom: 10px;
+}
+	._services_public ul.clearfix li a h4._title {
+        text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    color: #af9777;
+    position: relative;
+  /*  padding-left: 50px;*/
+    text-align: center;
+}
+	._services_public ul.clearfix li a {
+    display: block;
+    text-transform: uppercase;
+    border: 1px #f0f0f0 solid;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #f0f0f0;
+	transition:0.3s all;
+}
+	._services_public ul.clearfix li a:hover {background:#e7e7e7;border-color:#e7e7e7;}
+
+
+
+

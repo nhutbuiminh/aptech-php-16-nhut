@@ -1,0 +1,17 @@
+._ftSiteBasic .copyright {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+}
+._ftSiteBasic .copyright a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+@media (max-width: 768px)
+{
+	.navfootersite{padding-bottom:10px !important}
+	._ftSiteBasic{text-align:center}
+	._ftSiteBasic .copyright{text-align:center !important; float:none !important}
+	
+}

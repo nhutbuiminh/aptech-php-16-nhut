@@ -1,0 +1,591 @@
+﻿
+[class*="_fr_col"]
+{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*chuẩn cho cỡ màn hình 1600px, phù hợp với cỡ màn hình từ 1500px trở lên*/
+.fr_col1
+{
+    width: 8.333333333333332%;
+}
+
+.fr_col2
+{
+    width: 16.666666666666664%;
+}
+
+.fr_col3
+{
+    width: 25%;
+}
+
+.fr_col4
+{
+    width: 33.33333333333333%;
+}
+
+.fr_col5
+{
+    width: 41.66666666666667%;
+}
+
+.fr_col6
+{
+    width: 50%;
+}
+
+.fr_col7
+{
+    width: 58.333333333333336%;
+}
+
+.fr_col8
+{
+    width: 66.66666666666666%;
+}
+
+.fr_col9
+{
+    width: 75%;
+}
+
+.fr_col10
+{
+    width: 83.33333333333334%;
+}
+
+.fr_col11
+{
+    width: 91.66666666666666%;
+}
+
+.fr_col12
+{
+    width: 100%;
+}
+
+/*chuẩn cho cỡ màn hình 980px và 1024px, phù hợp với cỡ màn hình từ 978px trở lên*/
+
+
+/*chuẩn cho cỡ màn hình 768px, phù hợp với cỡ màn hình từ 766px trở lên*/
+/*@media (min-width: 766px) and (max-width: 977px)
+{
+	._m768_fr_col1{width:8.333333333333332%}._m768_fr_col2{width:16.666666666666664%}._m768_fr_col3{width:25%}._m768_fr_col4{width:33.33333333333333%}._m768_fr_col5{width:41.66666666666667%}._m768_fr_col6{width:50%}._m768_fr_col7{width:58.333333333333336%}._m768_fr_col8{width:66.66666666666666%}._m768_fr_col9{width:75%}._m768_fr_col10{width:83.33333333333334%}._m768_fr_col11{width:91.66666666666666%}._m768_fr_col12{width:100%}
+}*/
+
+/*chuẩn cho cỡ màn hình 320px, phù hợp với cỡ màn hình từ 320px trở lên*/
+@media (min-width: 280px)
+{
+    .mainpage-config
+    {
+        width: 95%;
+    }
+
+    ._m320_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m320_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m320_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m320_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m320_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m320_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m320_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m320_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m320_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m320_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m320_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m320_fr_col12
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px)
+{
+    ._m480_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m480_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m480_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m480_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m480_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m480_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m480_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m480_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m480_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m480_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m480_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m480_fr_col12
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px)
+{
+    ._m640_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m640_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m640_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m640_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m640_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m640_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m640_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m640_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m640_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m640_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m640_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m640_fr_col12
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    ._m768_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m768_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m768_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m768_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m768_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m768_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m768_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m768_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m768_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m768_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m768_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m768_fr_col12
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 980px)
+{
+    .mainpage-config
+    {
+        width: 90%;
+    }
+
+    .lbd-contain .wrapper-content
+    {
+        width: 77%;
+        float: right;
+    }
+
+    .lbd-contain .lbody
+    {
+        width: 21.5%;
+        min-height: 100px;
+        float: left;
+        margin-right: 1.5%;
+    }
+    /*END leftbody ---------------------------------------------------------*/
+    .wrapper-content .mainpage-set
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*START leftbodyright
+	------------------------------------------------------------------------*/
+    .lbdr-contain .lbody
+    {
+        width: 21.5%;
+        float: left;
+        margin-right: 1.5%;
+        min-height: 1px; /* background-color:bisque*/
+    }
+
+    .lbdr-contain .wrapper-content
+    {
+        width: 54%;
+        float: left;
+        margin-right: 1.5%;
+    }
+
+    .lbdr-contain .rbody
+    {
+        width: 21.5%;
+        float: right;
+        min-height: 1px;
+    }
+    /*START mainpage-config*/
+    .bdr-contain .wrapper-content
+    {
+        width: 77%;
+        float: left;
+    }
+
+    .bdr-contain .rbody
+    {
+        width: 21.5%;
+        min-height: 100px;
+        float: right;
+        margin-left: 1.5%;
+    }
+
+    ._m980_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m980_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m980_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m980_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m980_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m980_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m980_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m980_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m980_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m980_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m980_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m980_fr_col12
+    {
+        width: 100%;
+    }
+}
+/*chuẩn cho cỡ màn hình 1280px, phù hợp với cỡ màn hình từ 1200px trở lên*/
+@media (min-width: 1200px)
+{
+    /*.bdr-contain .wrapper-content{width:65%}
+	.bdr-contain .rbody{width:33.5%}
+	.lbd-contain .wrapper-content{width:65%}
+	.lbd-contain .lbody{width:33.5%}*/
+    /*.lbdr-contain .lbody,.lbdr-contain .wrapper-content,.lbdr-contain .rbody{width:100%;margin-right:0}*/
+    ._m1366_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m1366_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m1366_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m1366_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m1366_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m1366_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m1366_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m1366_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m1366_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m1366_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m1366_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m1366_fr_col12
+    {
+        width: 100%;
+    }
+}
+/*chuẩn cho cỡ màn hình 1600px, phù hợp với cỡ màn hình từ 1500px trở lên*/
+@media (min-width: 1600px)
+{
+    ._m1600_fr_col1
+    {
+        width: 8.333333333333332%;
+    }
+
+    ._m1600_fr_col2
+    {
+        width: 16.666666666666664%;
+    }
+
+    ._m1600_fr_col3
+    {
+        width: 25%;
+    }
+
+    ._m1600_fr_col4
+    {
+        width: 33.33333333333333%;
+    }
+
+    ._m1600_fr_col5
+    {
+        width: 41.66666666666667%;
+    }
+
+    ._m1600_fr_col6
+    {
+        width: 50%;
+    }
+
+    ._m1600_fr_col7
+    {
+        width: 58.333333333333336%;
+    }
+
+    ._m1600_fr_col8
+    {
+        width: 66.66666666666666%;
+    }
+
+    ._m1600_fr_col9
+    {
+        width: 75%;
+    }
+
+    ._m1600_fr_col10
+    {
+        width: 83.33333333333334%;
+    }
+
+    ._m1600_fr_col11
+    {
+        width: 91.66666666666666%;
+    }
+
+    ._m1600_fr_col12
+    {
+        width: 100%;
+    }
+}
+

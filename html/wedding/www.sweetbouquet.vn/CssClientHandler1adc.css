@@ -1,0 +1,158 @@
+#country-select
+{
+    float: right;
+}
+
+    #country-select form
+    {
+        width: 180px;
+        padding: 0;
+    }
+
+    #country-select select, #country-select input
+    {
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
+.dropdown
+{
+    right: 1px;
+    top: 3px;
+}
+
+    .dropdown dd
+    {
+        clear: both;
+        width: auto;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 120px;
+        padding: 3px 0;
+        margin: 0;
+    }
+
+    .dropdown a
+    {
+        text-decoration: none;
+        outline: 0;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .dropdown dt a
+    {
+        padding: 0;
+    }
+
+        .dropdown dt a.active
+        {
+            -webkit-border-bottom-left-radius: 0;
+            -webkit-border-bottom-right-radius: 0;
+            -moz-border-radius-bottomleft: 0;
+            -moz-border-radius-bottomright: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+    .dropdown dd ul
+    {
+        width: 100%;
+        display: none;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        padding: 2px 0 5px 0;
+        list-style: none;
+        border-top: none;
+        margin: 0;
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        -moz-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+        box-shadow: 0 3px 7px rgba(0,0,0,.5);
+    }
+
+        .dropdown dd ul li
+        {
+            width: 100%;
+        }
+
+            .dropdown dd ul li a
+            {
+                padding: 10px 10px;
+            }
+
+                .dropdown dd ul li a span, .dropdown dt a span
+                {
+                    float: left;
+                    margin: 0;
+                    background-repeat: no-repeat;
+                    cursor: pointer;
+                    background-size: cover;
+                }
+
+.us a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/us76ae.png?v=69');
+}
+
+.vi a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/vi76ae.png?v=69');
+}
+
+.en a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/en76ae.png?v=69');
+}
+
+.fr a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/fr76ae.png?v=69');
+}
+
+.de a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/de76ae.png?v=69');
+}
+
+.nl a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/nl76ae.png?v=69');
+}
+
+.jp a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/jp76ae.png?v=69');
+}
+
+.cn a span
+{
+    background-image: url('themes/default/images/thu-vien-anh/flags/cn76ae.png?v=69');
+}
+
+.dropdown dd ul li a em, .dropdown dt a em
+{
+    font-style: normal;
+    cursor: pointer;
+}
+
+.dropdown dd ul li a em
+{
+    padding-left: 5px;
+}
+
+.dropdown dd ul li a:hover
+{
+}
+

@@ -1,0 +1,39 @@
+._contact_public .btn-contact{cursor:pointer}
+._contact_public .form_send .frrow{padding-bottom:8px}
+.adp,.adp table{margin:0!important}
+#get_contact{position:relative;width:100%;}
+#google-map{height:inherit;border:1px solid #e1e1e1;margin:0;padding:0}
+#directions-panel{height:inherit;float:right;overflow:auto}
+#get_contact #contact{height:500px}
+@media print {
+#google-map{height:500px;margin:0}
+#directions-panel{float:none;width:auto}
+}
+.title_contact{line-height:27px;font-size:22px;font-weight:700;color:#FF7F04;text-shadow:0 1px 1px rgba(255,255,255,0.25);text-align:left;text-indent:15px}
+.form_info{margin-bottom:15px}
+/*.contact-info{margin:-30px auto 0}*/
+.contact-info input.button{background:#F79321!important;background:-moz-linear-gradient(top,#ffbc1f 0%,#fdb200 46%,#d89800 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffbc1f),color-stop(46%,#fdb200),color-stop(100%,#d89800));background:-webkit-linear-gradient(top,#ffbc1f 0%,#fdb200 46%,#d89800 100%);background:-o-linear-gradient(top,#ffbc1f 0%,#fdb200 46%,#d89800 100%);background:-ms-linear-gradient(top,#ffbc1f 0%,#fdb200 46%,#d89800 100%);background:linear-gradient(to bottom,#ffbc1f 0%,#fdb200 46%,#d89800 100%);padding:6px 20px;border:none;margin-top:15px;width:auto;color:#fff;border-radius:4px;font-size:15px;cursor:pointer}
+.box_containerlienhe .box_contact_r input,.box_containerlienhe .box_contact_r textarea{margin:7px;padding:5px 7px;border:1px solid #ccc;border-radius:2px;color:#8A8383;width:77%}
+.btn-contact{padding:5px 10px!important}
+._contact_public .mask_map{position:absolute;top:0;left:0;width:100%;background:rgba(241,241,241,0.1);z-index:1}
+.directions{margin-top:5px;width:100%}
+.directions input._btn,.directions ._btn{border:none;outline:none;margin-left:10px}
+.directions td:first-child{width:calc(100% - 125px);margin-right:5px;float:left}
+.directions td:first-child input{padding-top:10px;padding-bottom:10px;border-radius:3px}
+.directions td:last-child{width:120px;float:right}
+#panel{position:absolute;top:5px;left:50%;margin-left:-180px;z-index:5;background-color:#fff;padding:5px;border:1px solid #999}
+
+
+
+@media (max-width: 980px)
+{
+    ._contact_public .form_send
+    {
+        text-align: left;
+    }
+
+    ._contact_public .fr_col6
+    {
+        width: 100% !important;
+    }
+}
